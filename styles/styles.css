@@ -21,21 +21,27 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 10px;
-}
-
 main {
     max-width: 840px;
 }
 
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #999898;
+    padding: 1rem;
+    box-shadow: 0 0 30px gray;
+}
+
 aside {
     width: 20rem;
+    height: auto;
     margin: 1rem;
     border: 1px solid #999898;
     padding: 1rem;
-    background-attachment: white;
+    background-color: white;
     text-align: center;
+    box-shadow: 0 0 30px gray;
 }
 
 aside img {
@@ -44,7 +50,7 @@ aside img {
 }
 
 p {
-    padding: 0;
+    padding: 0px;
 }
 
 footer {
