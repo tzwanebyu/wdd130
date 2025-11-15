@@ -3,7 +3,7 @@
   --primary-color: #d7670b; 
   --secondary-color: #f4a261; 
   --accent1-color: #264653;
-  --accent2-color: #e9c46a; 
+  --accent2-color: #ababaa; 
   --heading-font: Arial, Helvetica, sans-serif;
 }
 
@@ -44,9 +44,9 @@ nav, p, section, article {
 }
 
 .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -68,4 +68,11 @@ h1 {
 footer nav img{
   width:3rem;
   height: auto;
+}
+
+.hero article {
+  position: relative;
+  top: -150px;
+  color: white;
+  background-color: var(--accent2-color);
 }
