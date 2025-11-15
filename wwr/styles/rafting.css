@@ -6,8 +6,6 @@
   --heading-font: Arial, Helvetica, sans-serif;
 }
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -64,14 +62,25 @@ h1 {
   width: 125px;
 }
 
-footer nav img{
-  width:3rem;
-  height: auto;
-}
-
 .hero article {
   position: relative;
-  top: -150px;
   color: white;
   background-color: var(--accent2-color);
+  top: 400px;
+}
+
+.hero {
+  position: absolute;
+}
+
+.hero h1 {
+  position: absolute
+}
+
+.hero img{
+ position: absolute;
+}
+
+footer {
+  top: 10px;
 }
