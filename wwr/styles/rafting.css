@@ -33,7 +33,11 @@ nav, p, section, article {
 }
 
 .socialmedia a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.socialmedia img {
+  width: 40px;
 }
 
 .hero {
@@ -48,13 +52,12 @@ nav, p, section, article {
 
 h1 {
   position: absolute;
-  top: 20px;
+  top:20px;
   width: 100%;
   padding: 16px;
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
-  color: #fff;
 }
 
 .hero article img {
@@ -63,24 +66,7 @@ h1 {
 }
 
 .hero article {
-  position: relative;
-  color: white;
-  background-color: var(--accent2-color);
-  top: 400px;
-}
-
-.hero {
   position: absolute;
-}
-
-.hero h1 {
-  position: absolute
-}
-
-.hero img{
- position: absolute;
-}
-
-footer {
-  top: 10px;
+  bottom: 10px;
+  background: var(--accent2-color)
 }
